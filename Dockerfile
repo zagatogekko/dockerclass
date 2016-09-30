@@ -11,5 +11,5 @@ COPY apache2.conf /etc/apache2/sites-available/000-default.conf
 
 # RUN rpm -i /root/gcc*
 
-# CMD ""
+# CMD "docker run -dti zagatogekko/apache"
 
